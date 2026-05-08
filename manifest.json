@@ -1,0 +1,62 @@
+{
+  "name": "forge-genesis",
+  "version": "1.0.0",
+  "description": "Universal Agent Memory Installation System — builds a complete 6-layer memory system from scratch on any AI agent runtime",
+  "author": "NeuralForge / Island Dev Crew LLC",
+  "license": "MIT",
+  "mode": "install",
+  "collection": "neuralforge-memory-mastery",
+  "entry": "SKILL.md",
+  "install": "INSTALL_PROMPT.md",
+  "skills": [
+    "skills/agent-detector.md",
+    "skills/version-checker.md",
+    "skills/scaffold-builder.md",
+    "skills/hook-wirer.md",
+    "skills/compiler-builder.md",
+    "skills/lint-scheduler.md",
+    "skills/voice-memory.md",
+    "skills/vision-memory.md",
+    "skills/memory-engineer.md"
+  ],
+  "scripts": [
+    "scripts/detect-runtime.sh",
+    "scripts/scaffold.sh",
+    "scripts/wire-hooks.sh",
+    "scripts/activate.sh"
+  ],
+  "templates": [
+    "templates/MEMORY.md",
+    "templates/AGENTS.md",
+    "templates/PARA.md",
+    "templates/daily-note.md",
+    "templates/concept.md",
+    "templates/HOTCACHE.md",
+    "templates/WORKSPACE_MEMORY.md"
+  ],
+  "supported_runtimes": [
+    "openclaw",
+    "claude-code",
+    "hermes",
+    "agent-zero",
+    "nemoclaw",
+    "paperclip",
+    "generic"
+  ],
+  "memory_model": {
+    "layers": 6,
+    "names": ["ROUTING", "CAPTURE", "COMPILE", "DURABLE", "GRAPH", "RECALL"]
+  },
+  "constraints": {
+    "max_skill_lines": 70,
+    "pointer_first": true,
+    "non_destructive": true,
+    "human_approval_required": true,
+    "max_retry_loops": 3,
+    "never_overwrite_existing": true
+  },
+  "related_packages": [
+    "forge-recall",
+    "forge-hivemind"
+  ]
+}
