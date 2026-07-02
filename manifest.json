@@ -1,6 +1,6 @@
 {
   "name": "forge-genesis",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Memory governance: bootstraps a complete governed 6-layer memory system on any fresh agent, wrapping whatever storage primitive is present (markdown, Anthropic Memory Tool, vector DB) — vendor-neutral by design",
   "author": "NeuralForge / Island Dev Crew LLC",
   "license": "MIT",
@@ -17,13 +17,15 @@
     "skills/lint-scheduler.md",
     "skills/voice-memory.md",
     "skills/vision-memory.md",
-    "skills/memory-engineer.md"
+    "skills/memory-engineer.md",
+    "skills/vmg-guardian.md"
   ],
   "scripts": [
     "scripts/detect-runtime.sh",
     "scripts/scaffold.sh",
     "scripts/wire-hooks.sh",
-    "scripts/activate.sh"
+    "scripts/activate.sh",
+    "scripts/vmg-check.sh"
   ],
   "templates": [
     "templates/MEMORY.md",
@@ -32,7 +34,8 @@
     "templates/daily-note.md",
     "templates/concept.md",
     "templates/HOTCACHE.md",
-    "templates/WORKSPACE_MEMORY.md"
+    "templates/WORKSPACE_MEMORY.md",
+    "templates/ACCESS.md"
   ],
   "supported_runtimes": [
     "openclaw",
@@ -71,5 +74,9 @@
     "memory governance",
     "trust-scored memory",
     "cross-family memory consensus"
-  ]
+  ],
+  "research_grounding": {
+    "vmg": "arXiv:2604.16548 — Verifiable Memory Governance (five primitives)",
+    "hygiene": "arXiv:2606.24775 — contradiction/staleness benchmark, localized-maintenance 18x rule"
+  }
 }

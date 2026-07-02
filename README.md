@@ -15,6 +15,8 @@
 
 FORGE GENESIS builds a complete 6-layer memory system from scratch on any AI agent. It detects the agent runtime, checks its native capabilities, scaffolds the full file structure, wires hooks and pipelines, and activates the system — taking an agent from zero memory to full persistent recall.
 
+**v2.1**: ships the five **Verifiable Memory Governance** primitives (arXiv:2604.16548) as an install step — write authorization, provenance, scoped retrieval, rollback, verified forgetting. See `skills/vmg-guardian.md`.
+
 **Philosophy**: Build right the first time. Calibrate to the runtime. Activate everything.
 
 ## The 6-Layer Memory Model

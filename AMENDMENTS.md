@@ -1,3 +1,27 @@
+# FORGE GENESIS — Amendment Block v2.1
+# Research-Grounded Governance Hardening
+# Date: July 2, 2026
+# Status: ACTIVE
+
+## PURPOSE
+Implements the five VMG primitives as a first-class install step:
+- NEW skills/vmg-guardian.md — Write Authorization, Provenance Visibility,
+  Principal-Scoped Retrieval, Rollbackability, Verified Forgetting
+- NEW scripts/vmg-check.sh — re-runnable primitive checks (--all | --provenance | --forget)
+- NEW templates/ACCESS.md — principal→scope map (fail closed)
+- memory-unit template gains governance fields (written_by, authorized_by, provenance,
+  version, prior_version_id, status) + hygiene fields (subject, valid_until, superseded_by)
+- SKILL.md sequence gains step 9 (vmg-guardian); scaffold gains memory/ACCESS.md + .forge/vmg/
+
+## GROUNDING
+- arXiv:2604.16548 (LTM security survey) — Verifiable Memory Governance: five primitives,
+  security anchored at STORAGE time, never retrofitted at retrieval
+- arXiv:2606.24775 (12-system benchmark) — contradiction resolution tops out at 44.4 EM;
+  stale stores "hallucinate the past"; localized maintenance ~18x cheaper than global reorg
+- Full brief: neuralforge-memory-mastery/docs/memory-frontier-brief-2026-07.html
+
+---
+
 # FORGE GENESIS — Amendment Block v2.0
 # The Governance Repositioning
 # Date: July 2, 2026

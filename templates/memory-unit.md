@@ -17,6 +17,25 @@ references:      # [memory-id-1, memory-id-2, ...]
 layer:           # 1-6 (which memory layer this lives in)
 ```
 
+## Governance Fields (required — VMG, arXiv:2604.16548) ★v2.1
+```yaml
+written_by:      # authenticated writer: hook name | agent id | human    (Primitive 1)
+authorized_by:   # who sanctioned the write: human | policy | pipeline   (Primitive 1)
+provenance:      # ordered lineage chain, APPEND-only                    (Primitive 2)
+                 # e.g. [session:2026-07-02T10, compile:wiki-pass-3]
+version:         # integer, starts at 1                                  (Primitive 4)
+prior_version_id: # memory-id of the version this supersedes, or null    (Primitive 4)
+status:          # active | superseded | tombstoned                      (Primitives 4+5)
+```
+
+## Hygiene Fields (required for contradiction/staleness linting) ★v2.1
+```yaml
+subject:         # canonical entity/topic key — contradiction detection compares
+                 # units sharing a subject (e.g. "deploy.target", "jon.timezone")
+valid_until:     # ISO-8601 expiry or "durable" — staleness linting flags expired
+superseded_by:   # memory-id of the newer truth, or null — resolves conflicts locally
+```
+
 ## Decision Unit (extends base)
 ```yaml
 options_considered: # [option-a, option-b, ...]

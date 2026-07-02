@@ -13,8 +13,9 @@ Agent has no memory system or needs a complete fresh install.
 5. Run `skills/hook-wirer.md` with runtime → installs capture hooks
 6. Run `skills/compiler-builder.md` → installs compilation pipeline
 7. Run `skills/lint-scheduler.md` → schedules automated health checks
-8. Seed initial files from templates/
-9. Run FORGE RECALL's `lint-runner` to verify → outputs health-report.md
+8. Seed initial files from templates/ (incl. memory/ACCESS.md — VMG scope map)
+9. Run `skills/vmg-guardian.md` → wires the 5 VMG primitives (arXiv:2604.16548) → vmg-report.md ★v2.1
+10. Run FORGE RECALL's `lint-runner` to verify → outputs health-report.md
 
 ## AGENT DETECTION (same as FORGE RECALL)
 ```
@@ -47,7 +48,9 @@ else                        → runtime=generic
 │   ├── compile.sh
 │   ├── flush.sh
 │   └── lint.sh
+├── memory/ACCESS.md             # VMG: principal-scoped retrieval ★v2.1
 └── .forge/
+    ├── vmg/                     # VMG: write-log.md + vmg-report.md ★v2.1
     └── genesis/
         ├── runtime-report.md
         ├── capability-report.md
