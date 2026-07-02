@@ -1,3 +1,31 @@
+# FORGE GENESIS — Amendment Block v2.0
+# The Governance Repositioning
+# Date: July 2, 2026
+# Status: ACTIVE (documentation + positioning; no behavioral changes to sub-skills)
+
+## PURPOSE
+Repositions this skill for the post-consolidation memory landscape (Q2 2026:
+Anthropic Memory Tool GA, Managed Agents Memory beta, Dreaming, claude-mem ~66K stars).
+The raw store-and-recall problem is solved at the primitive layer. This collection's
+defensible position is the layer ABOVE the primitives: **memory governance** —
+verification, trust, auditability, human-owned truth, and cross-vendor portability.
+
+## WHAT CHANGED
+- README leads with the governance thesis ("trust layer over your existing memory")
+- manifest.json bumped to 2.0.0 with governance-first description
+- Vocabulary claimed: "memory governance," "trust-scored memory," "cross-family memory consensus"
+
+## WHAT DID NOT CHANGE
+- All sub-skills, scripts, templates, and the 6-layer model operate exactly as in v1.2
+- The architecture already WAS a governance layer — v2.0 names it
+
+## ROADMAP (v2.x)
+- Forge Score: a portable, quantified trust signal attached to individual memory units
+- PSZN consensus: cross-family verification (Claude + GPT + Gemini + DeepSeek) of stored memories
+- Adapters: first-class audit targets for Anthropic Memory Tool exports and claude-mem stores
+
+---
+
 # FORGE GENESIS — Amendment Block v1.1
 # Voice + Vision Memory Extensions
 # Date: April 8, 2026

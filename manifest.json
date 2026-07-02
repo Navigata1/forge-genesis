@@ -1,7 +1,7 @@
 {
   "name": "forge-genesis",
-  "version": "1.0.0",
-  "description": "Universal Agent Memory Installation System — builds a complete 6-layer memory system from scratch on any AI agent runtime",
+  "version": "2.0.0",
+  "description": "Memory governance: bootstraps a complete governed 6-layer memory system on any fresh agent, wrapping whatever storage primitive is present (markdown, Anthropic Memory Tool, vector DB) — vendor-neutral by design",
   "author": "NeuralForge / Island Dev Crew LLC",
   "license": "MIT",
   "mode": "install",
@@ -45,7 +45,14 @@
   ],
   "memory_model": {
     "layers": 6,
-    "names": ["ROUTING", "CAPTURE", "COMPILE", "DURABLE", "GRAPH", "RECALL"]
+    "names": [
+      "ROUTING",
+      "CAPTURE",
+      "COMPILE",
+      "DURABLE",
+      "GRAPH",
+      "RECALL"
+    ]
   },
   "constraints": {
     "max_skill_lines": 70,
@@ -58,5 +65,11 @@
   "related_packages": [
     "forge-recall",
     "forge-hivemind"
+  ],
+  "positioning": "memory-governance",
+  "vocabulary": [
+    "memory governance",
+    "trust-scored memory",
+    "cross-family memory consensus"
   ]
 }

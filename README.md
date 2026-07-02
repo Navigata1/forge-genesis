@@ -1,8 +1,15 @@
 # FORGE GENESIS — The Builder
 ## Universal Agent Memory Installation System
-### Version 1.0.0 | NeuralForge Memory Mastery Collection
+### Version 2.0.0 | NeuralForge Memory Mastery Collection · The Memory Governance Layer
 
 ---
+
+> **v2.0 — THE GOVERNANCE REFRAME.** Memory primitives are commodities now. What no primitive
+> ships is *governance*: role separation, human-owned truth, audit trails, lint gates, and
+> portability that survives a vendor switch. FORGE GENESIS v2.0 is repositioned as the
+> *governed-memory bootstrap*: it stands up the full 6-layer model on a fresh agent and wraps
+> whatever storage primitive is present — plain markdown, Anthropic's Memory Tool, a vector
+> store — so the governance travels even when the backend changes. Build once, own it forever.
 
 ## What It Does
 
